@@ -8,6 +8,8 @@
 html{
   overflow-x: hidden;
    font-family: 'Kanit', sans-serif;
+  scroll-behavior: smooth;
+
 }
 
 body{
@@ -65,12 +67,16 @@ h2{
     right: 0px;
     top: 4rem;
     width: 20rem;
-    transform: translateX(110%);
+    transform: translateX(150%);
     transition: transform 0.5s ease 0s;
     height: 50vh;
     overflow-y: auto;
     border-radius: 8px;
     z-index: 9999;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 
 box-shadow: -5px 3px 26px -3px rgba(0,0,0,0.45);
 -webkit-box-shadow: -5px 3px 26px -3px rgba(0,0,0,0.45);
@@ -79,10 +85,12 @@ box-shadow: -5px 3px 26px -3px rgba(0,0,0,0.45);
 
 .links{
   text-decoration: none;
+  margin-bottom: .7rem;
+  color: #70208E;
 }
 
 .mon{
-  width: 1.5rem;
+  width: 1.2rem;
   transition: all .4s ease;
   cursor: pointer;
 }
@@ -519,6 +527,12 @@ body.dark h3{
      align-items: center;
   }
 
+  .nav{
+     display: flex;
+    flex-direction: row;
+    /* align-items: center; */
+  }
+
   .seccionUno{
     height: 100vh;
   }
@@ -624,7 +638,7 @@ body.dark h3{
     right: 1rem;
     top: 1rem;
     width: 27rem;
-    height: 2rem;
+    height: 2.5rem;
     box-shadow: none;
     display: flex;
     align-items: center;
