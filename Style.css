@@ -687,7 +687,7 @@ h1{
 
 .Descripcion{
   width: 100%;
-  margin-bottom: 5rem;
+  margin-bottom: 2.5rem;
 }
 
 h1 .seva{
@@ -701,7 +701,7 @@ h1 .seva{
 
 .UnoFigure img{
   width: 29rem;
-  margin-top: 7rem;
+  margin-top: 5rem;
 }
  
 .redes{
@@ -712,6 +712,8 @@ h1 .seva{
   flex-direction: row-reverse;
   cursor: pointer;
   transition: all .3s ease-out;
+  margin-top: 0;
+
 }
 
 .redes img:hover{
@@ -874,6 +876,10 @@ h1 .seva{
 
     width: 18rem;
 
+  }
+
+  .Card .face{
+    height: 92%;
   }
 
   .medioCuatro{
