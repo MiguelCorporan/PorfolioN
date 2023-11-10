@@ -438,6 +438,7 @@ h3{
 
 footer{
   margin-top: 3rem;
+  text-align: center;
 }
 
 
@@ -544,6 +545,7 @@ body.dark h3{
 
   .redes{
     width: 30%;
+    
   }
   .UnoFigure img {
     width: 28rem;
@@ -575,7 +577,7 @@ body.dark h3{
   }
 
   h3{
-    margin-top: 5rem;
+    margin-top: 2rem;
   }
 
   /* .medioCuatro{
@@ -588,7 +590,7 @@ body.dark h3{
 /*------------------------------------------------------------------*/
 /*---------------------PC---------------------------------------------*/
 
-@media screen and (min-width:1280px) {
+@media screen and (min-width:1080px) {
   body{
      background-color:#efefef;
      display: flex;
@@ -662,6 +664,7 @@ body.dark h3{
   display: flex;
   text-align: left;
   padding-top: 0;
+  margin: auto;
 }
 
 .izquierda{
@@ -684,7 +687,7 @@ h1{
 
 .Descripcion{
   width: 100%;
-  margin-bottom: 7rem;
+  margin-bottom: 5rem;
 }
 
 h1 .seva{
@@ -697,7 +700,7 @@ h1 .seva{
 }
 
 .UnoFigure img{
-  width: 32rem;
+  width: 29rem;
   margin-top: 7rem;
 }
  
@@ -764,9 +767,11 @@ h1 .seva{
 
 .conoceme{
   text-align: right;
-    width: 70%;
+  width: 70%;
   margin-right: auto;
-  margin-bottom: 6rem;
+  margin-bottom: 2.5rem;
+
+  
 }
 
 .descargar{
@@ -780,7 +785,7 @@ h1 .seva{
 }
 
 .dosFigure img{
-  width: 35rem;
+  width: 25rem;
 }
 
 .descargar:hover{
@@ -795,7 +800,7 @@ h1 .seva{
 
 
 .seccionTres{
-      width: 80%;
+  width: 80%;
   height: 80vh;
   position: relative;
   background-color: #ffffff;
@@ -829,7 +834,7 @@ h1 .seva{
 .tresMedio{
   width: 50%;
   height: 100%;
-  padding-top: 5rem;
+  /* padding-top: 3rem; */
 }
 
 .tresFigure{
@@ -838,7 +843,7 @@ h1 .seva{
 }
 
 .tresFigure img{
-  width: 35rem;
+  width: 23rem;
   margin-left: 3rem;
 }
 
@@ -850,7 +855,7 @@ h1 .seva{
 
 .seccionCuatro{
   width: 80%;
-  min-height: 80vh;
+  height: 80vh;
   position: relative;
   background-color: #ffffff;
   padding: 1rem;
@@ -863,6 +868,34 @@ h1 .seva{
 
   .medioCuatro{
     width: 80%;
+  }
+
+  .Card {
+
+    width: 18rem;
+
+  }
+
+  .medioCuatro{
+    width: 100%;
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+}
+.seccionCuatro h3{
+  margin-bottom: 1.5rem;
+}
+
+}
+
+@media screen and (min-width:1280px) {
+  .medioCuatro{
+grid-template-columns: repeat(auto-fit, minmax(18rem, 1fr));
+}
+
+}
+@media screen and (min-width:2560px) {
+  body{
+    background-color: #70208E;
   }
 }
 
